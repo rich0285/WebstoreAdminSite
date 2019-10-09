@@ -6,10 +6,7 @@
                 class="col-sm-4 ma-2"
 
         >
-            <v-img
-                    src="https://cdn.vuetifyjs.com/images/cards/mountain.jpg"
-                    height="194"
-            ></v-img>
+
             <v-card-title>{{product.clothingName}}</v-card-title>
             <v-card-text >
 
