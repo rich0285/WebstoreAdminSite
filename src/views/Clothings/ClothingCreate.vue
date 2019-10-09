@@ -103,7 +103,7 @@
                     clothingName: this.clothings.clothingName,
                     size: this.clothings.size,
                     price: this.clothings.price,
-                    //clothesTypes: this.clothings.clothesTypes,
+                    clothesTypes: this.clothings.clothesTypes,
                     clothingInformation: this.clothings.clothingInformation,
 
                 })

@@ -57,7 +57,7 @@
             async DeleteById(product) {
                 let result = await restApi.delete('/clothing/' + product.id)
                 if (result.status !== 200) {
-                    //wat
+                    throw new Error()
                 } else {
                     this.loadData()
                 }
