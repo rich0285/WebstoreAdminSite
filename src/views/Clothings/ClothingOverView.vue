@@ -16,6 +16,8 @@
                 clothesTypes: {{product.clothesTypes}}
                 <br>
                 id: {{product.id}}
+                <br>
+                Info: {{product.clothingInformation }}
             </v-card-text>
             <v-card-actions>
                 <v-btn :to="{
