@@ -26,7 +26,7 @@
                     id: product.id
                     }
                 }">View</v-btn>
-                <v-btn v-on:click="DeleteById(product)" class="">Delete</v-btn>
+                <v-btn v-on:click="DeleteById(product)" class="float-right">Delete</v-btn>
             </v-card-actions>
         </v-card>
     </div>

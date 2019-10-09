@@ -1,10 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/clothings">clothingOverView</router-link> |
-      <router-link to="/clothing/Create">Create</router-link>
+      <div id="home">
 
-
+      </div>
     </div>
     <router-view/>
   </div>

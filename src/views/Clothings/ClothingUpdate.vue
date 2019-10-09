@@ -70,7 +70,8 @@
             </v-container>
         </v-form>
 
-        <v-btn @click="updateClothing(clothings.id)" class="float-left">update</v-btn>
+        <v-btn @click="updateClothing(clothings.id)" class="float-right">update</v-btn>
+        <v-btn @click="$router.go(-1)" class="float-right">Back</v-btn>
     </div>
 </template>
 

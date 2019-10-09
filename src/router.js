@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import ClothingCreate from "./views/Clothings/ClothingCreate";
 import ClothingUpdate from "./views/Clothings/ClothingUpdate";
 import ClothingOverView from "./views/Clothings/ClothingOverView";
+import Home from "./views/Clothings/Home";
 
 Vue.use(Router)
 
@@ -15,6 +16,11 @@ export default new Router({
       name: 'Clothing-create',
       component: ClothingCreate
     },
+      {
+          path: '/',
+          name: 'Home',
+          component: Home
+      },
 
     {
       path: '/Clothing-update/:id',
