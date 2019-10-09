@@ -70,7 +70,10 @@
         </v-container>
     </v-form>
 
-    <v-btn @click="buttonPost" class="float-left">Submit</v-btn>
+    <v-btn @click="buttonPost" class="float-right">Submit</v-btn>
+
+    <v-btn @click="$router.go(-1)" class="float-left">Back</v-btn>
+
 </div>
 </template>
 
