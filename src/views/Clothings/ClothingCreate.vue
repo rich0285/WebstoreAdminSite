@@ -21,7 +21,7 @@
                         md="5"
                 >
                     <v-text-field
-                            v-model="clothings.clothesTypes"
+                            v-model="clothings.clothingType"
                             label="Type of clothes"
                             required
                     ></v-text-field>
@@ -64,6 +64,11 @@
                             label="ClothingInformation"
                             required
                     ></v-text-field>
+                    <v-text-field
+                            v-model="clothings.imgLink"
+                            label="Link To Image"
+                            required
+                    ></v-text-field>
                 </v-col>
             </v-row>
 
@@ -88,8 +93,9 @@
                 clothingName: '',
                 size: '',
                 price: 0,
-                clothesTypes: '',
+                clothingType: '',
                 clothingInformation: '',
+                imgLink: ''
 
 
             }
@@ -103,8 +109,9 @@
                     clothingName: this.clothings.clothingName,
                     size: this.clothings.size,
                     price: this.clothings.price,
-                    clothesTypes: this.clothings.clothesTypes,
+                    clothingType: this.clothings.clothingType,
                     clothingInformation: this.clothings.clothingInformation,
+                    imgLink: this.clothings.imgLink
 
                 })
             }

@@ -6,19 +6,24 @@
                 class="col-sm-4 ma-2"
 
         >
-
+            <v-img
+                    :src="product.imgLink"
+                    height="200"
+            ></v-img>
             <v-card-title>{{product.clothingName}}</v-card-title>
+
             <v-card-text >
 
                 Size: {{product.size}}
                 <br >
                 DKK: {{product.price}}
                 <br>
-                clothesTypes: {{product.clothesTypes}}
+                clothesTypes: {{product.clothingType}}
                 <br>
                 id: {{product.id}}
                 <br>
                 Info: {{product.clothingInformation }}
+
             </v-card-text>
             <v-card-actions>
                 <v-btn :to="{

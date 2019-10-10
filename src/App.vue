@@ -4,10 +4,6 @@
 
     <div id="nav">
 
-      <router-link to="/clothings">clothingOverView</router-link> |
-      <router-link to="/clothing/Create">Create</router-link>
-
-
 
 
       </div>
